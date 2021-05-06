@@ -32,6 +32,49 @@
           estate market to rent their properties for others.</p>
       </div>
     </div>
+    <div class="section">
+      <div class="container">
+        <h2>My process</h2>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <picture>
+          <source srcset="img/lit_squares_persona_600x400px.jpg" media="(max-width:767px)">
+          <img src="img/lit_squares_persona_1200x800px.jpg" alt="Lit Squares">
+        </picture>
+        <h3>Understanding the users</h3>
+        <p>Basing on research and a persona’s profile, I found
+          patterns in the users’ needs, goals and challenges.</p>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <picture>
+          <source srcset="x" media="(max-width:767px)">
+          <img src="x" alt="x">
+        </picture>
+        <h3>User flows</h3>
+        <p>Users were the people usually on-the-go, so mobile experience
+          was crutial for them. While designing their flows, I wanted to
+          limit their effort to a minimum and have them achive their goals
+          within as little amount of steps as possible..</p>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <picture>
+          <source srcset="img/lit_squares_mid_fidelity_600x400px.jpg" media="(max-width:767px)">
+          <img src="img/lit_squares_mid_fidelity_1200x800px.jpg" alt="Lit Squares">
+        </picture>
+        <h3>Mid-fidelity wireframes</h3>
+        <p>Another itereation made it clear that the user’s flow needed to be
+          simplified in both visual hierarchy and navigation. Among other
+          things, I applied a Tabbed Control menu instead of long screens of
+          swiping. That way, users could fully control were they were and
+          switch between screens easily.</p>
+      </div>
+    </div>
   </main>
   <footer>
     <div class="container">
