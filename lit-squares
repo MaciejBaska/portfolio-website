@@ -29,7 +29,14 @@
           <img src="img/project1_1200x800px.jpg" alt="Lit Squares">
         </picture>
         <p>Web app for people who wants to invest on the real
-          estate market to rent their properties for others.</p>
+          estate market to rent their properties for others.
+          The app targets to seasonal users who’s eager to invest
+          in properties, so they need a tool that easily walk them
+          through the enitre process of finding and renting at the
+          real estate market getting comprehensive information
+          on the property and its neightbourhood before visiting
+          the place. For that reason the app had be powerful and
+          complex, yet simple, clean and handy.</p>
       </div>
     </div>
     <div class="section">
@@ -51,8 +58,8 @@
     <div class="section">
       <div class="container">
         <picture>
-          <source srcset="x" media="(max-width:767px)">
-          <img src="x" alt="x">
+          <source srcset="img/lit_squares_user_flow_600x400px.jpg" media="(max-width:767px)">
+          <img src="img/lit_squares_user_flow_1200x800px" alt="Lit Squares User Flow">
         </picture>
         <h3>User flows</h3>
         <p>Users were the people usually on-the-go, so mobile experience
@@ -73,6 +80,34 @@
           things, I applied a Tabbed Control menu instead of long screens of
           swiping. That way, users could fully control were they were and
           switch between screens easily.</p>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <picture>
+          <source srcset="img/lit_squares_high_fidelity_600x400px.jpg" media="(max-width:767px)">
+          <img src="img/lit_squares_high_fidelity_1200x800px.jpg" alt="Lit Squares">
+        </picture>
+        <h3>Usability testss</h3>
+        <p>I conducted a test with users. The results came with another
+          improvements including onboarding process among others.
+          Now, the user was able to have a glimpse of the app’s possibilities
+          by simply swiping up the welcome screen before signing up or
+          logging in. Also, I redesigned the subnavigation to make it less
+          prominent than the main menu, and I moved an icon for search
+          filters up, next to the search bar. With all of that, users’
+          experience became clean and handy.</p>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <h2>Conclusion</h2>
+      </div>
+      <div class="container">
+        <p>The app solved main problems of people who want to invest in real estate,
+          like a little knowledge they have in this field. In the future,
+          the app could open to people who look for houses and flats to live there.
+          Therefor the app could be a place where both groups meet.</p>
       </div>
     </div>
   </main>
