@@ -38,3 +38,14 @@ h4 {
 img {
   width: 100%;
 }
+
+a {
+  color: #003a4a;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #003a4a;
+  background-color: transparent;
+  text-decoration: underline;
+}
