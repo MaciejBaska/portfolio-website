@@ -40,12 +40,21 @@ img {
 }
 
 a {
-  color: #003a4a;
+  color: #ff7f50;
   background-color: transparent;
   text-decoration: none;
 }
-a:hover {
-  color: #003a4a;
+a:visited {
+  color: #ff7f50;
+  background-color: transparent;
+}
+a:hover,
+a:focus {
+  color: #cc6540;
   background-color: transparent;
   text-decoration: underline;
+}
+a:active {
+  color: #994c30;
+  background-color: transparent;
 }
