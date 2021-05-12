@@ -61,28 +61,52 @@ a:active {
 
 .button {
   display: inline-block;
-  background-color: #003a4a;
+  background-color: #ff7f50;
   color: #ffffff;
   font-weight: 400;
   padding: 10px;
-  border-radius: 4px;
-  border-bottom: 2px solid #ffffff;
+  border-radius: 3px;
+  border-bottom: 2px solid #994c30;
   transition: 0.2s opacity;
 }
 .button:visited {
   background-color: #ffffff;
-  color: #333333;
-  border-color: #003a4a;
+  color: #ff7f50;
+  border-color: #994c30;
   text-decoration: none;
 }
 .button:hover,
 .button:focus {
-  opacity: 0,3;
+  opacity: 0,8;
   text-decoration: none;
 }
 .button:active {
   background-color: #ffffff;
-  color: #003a4a;
-  border-color: #003a4a;
+  color: #ff7f50;
+  border-color: #994c30;
+  text-decoration: none;
+}
+
+.button.contact {
+  background-color: transparent;
+  color: #ff7f50;
+  text-transform: uppercase;
+  border: 2px solid #ff7f50;
+}
+.button.contact:visited {
+  background-color: #ffffff;
+  color: #ff7f50;
+  border-color: #ff7f50;
+  text-decoration: none;
+}
+.button.contact:hover,
+.button.contact:focus {
+  opacity: 0.8;
+  text-decoration: none;
+}
+.button.contact:active {
+  background-color: #ffffff;
+  color: #ff7f50;
+  border-color: #994c30;
   text-decoration: none;
 }
