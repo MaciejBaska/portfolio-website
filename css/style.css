@@ -120,12 +120,14 @@ a:active {
   text-transform: uppercase;
   border: 2px solid #003a4a;
 }
+
 .button.contact:visited {
   background-color: #ffffff;
   color: #ff7f50;
   border-color: #ff7f50;
   text-decoration: none;
 }
+
 .button.contact:hover,
 .button.contact:focus {
   display: inline-block;
@@ -138,6 +140,7 @@ a:active {
   opacity: 0, 8;
   text-decoration: none;
 }
+
 .button.contact:active {
   display: inline-block;
   background-color: #003a4a;
