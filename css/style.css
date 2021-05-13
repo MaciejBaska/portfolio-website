@@ -42,18 +42,18 @@ img {
 
 a,
 a:visited {
-  color: #003a4a;
+  color: #ffffff;
   text-decoration: underline;
 }
 
 a:hover,
 a:focus {
-  color: #003a4a;
+  color: #ffffff;
   text-decoration: none;
 }
 
 a:active {
-  color: #003a4a;
+  color: #ffffff;
   opacity: 0.4;
 }
 
