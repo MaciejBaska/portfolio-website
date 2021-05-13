@@ -40,41 +40,24 @@ img {
   width: 100%;
 }
 
-a {
-  color: #003a4a;
-  background-color: transparent;
-  text-decoration: none;
-}
-
+a,
 a:visited {
   color: #003a4a;
-  background-color: transparent;
+  text-decoration: underline;
 }
 
 a:hover,
 a:focus {
   color: #003a4a;
-  background-color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:active {
   color: #003a4a;
   opacity: 0.4;
-  background-color: transparent;
 }
 
-.button {
-  display: inline-block;
-  background-color: #003a4a;
-  color: #ffffff;
-  font-weight: 400;
-  padding: 10px;
-  border-radius: 4px;
-  border-bottom: 2px solid #333333;
-  transition: 0.2s opacity;
-}
-
+.button,
 .button:visited {
   display: inline-block;
   background-color: #003a4a;
@@ -84,49 +67,28 @@ a:active {
   border-radius: 4px;
   border-bottom: 2px solid #333333;
   transition: 0.2s opacity;
+  text-decoration: none;
 }
-
 .button:hover,
 .button:focus {
-  display: inline-block;
-  background-color: #003a4a;
-  color: #ffffff;
   opacity: 0.8;
-  font-weight: 400;
-  padding: 10px;
-  border-radius: 4px;
-  border-bottom: 2px solid #333333;
-  transition: 0.2s opacity;
   text-decoration: none;
 }
-
 .button:active {
   display: inline-block;
-  background-color: transparent;
+  background-color: #ffffff;
   color: #003a4a;
-  font-weight: 400;
-  padding: 10px;
-  border-radius: 4px;
   border: 2px solid #003a4a;
-  transition: 0.2s opacity;
-  opacity: 0, 8;
   text-decoration: none;
 }
 
+.button.contact,
 .button.contact {
   background-color: #ffffff;
   color: #003a4a;
   text-transform: uppercase;
   border: 2px solid #003a4a;
 }
-
-.button.contact:visited {
-  background-color: #ffffff;
-  color: #ff7f50;
-  border-color: #ff7f50;
-  text-decoration: none;
-}
-
 .button.contact:hover,
 .button.contact:focus {
   display: inline-block;
@@ -139,15 +101,7 @@ a:active {
   opacity: 0, 8;
   text-decoration: none;
 }
-
 .button.contact:active {
-  display: inline-block;
-  background-color: #003a4a;
-  color: #ffffff;
-  font-weight: 400;
-  padding: 10px;
-  border-radius: 4px;
-  transition: 0.2s opacity;
   opacity: 1;
   text-decoration: none;
 }
