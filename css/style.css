@@ -3,6 +3,10 @@
 #333333
 #003a4a
 */
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #ffffff;
   font-family: 'Lato', sans-serif;
