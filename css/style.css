@@ -44,6 +44,10 @@ img {
   width: 100%;
 }
 
+header {
+  background-color: #003a4a;
+}
+
 a,
 a:visited {
   color: #ffffff;
@@ -108,4 +112,27 @@ a:active {
 .button.contact:active {
   opacity: 1;
   text-decoration: none;
+}
+
+
+/* Layout styling */
+
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0;
+}
+
+#work .row {
+  padding-bottom: 25px; border-bottom: 1px; color: #333333;
+}
+
+#home h1 {
+  text-align: center;
+}
+
+.logo {
+  max-width: 250px;
 }
