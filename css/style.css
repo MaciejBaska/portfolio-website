@@ -131,6 +131,7 @@ a:active {
 .button.contact:active {
   opacity: 1;
   text-decoration: none;
+  border: 2px solid #ffffff;
 }
 
 
@@ -219,4 +220,19 @@ footer > div > h2 {
 
 footer > div p {
   color: #ffffff;
+}
+
+.icon {
+  max-width: 3%;
+  display: inline-block;
+}
+
+.image {
+  max-width: 50%;
+  display: inline-block;
+}
+
+.image.project1 {
+  max-width: 50%;
+  display: inline-block;
 }
