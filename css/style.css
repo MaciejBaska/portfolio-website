@@ -223,16 +223,11 @@ footer > div p {
 }
 
 .icon {
-  max-width: 3%;
+  max-width: 44px;
   display: inline-block;
 }
 
 .image {
-  max-width: 50%;
-  display: inline-block;
-}
-
-.image.project1 {
   max-width: 50%;
   display: inline-block;
 }
