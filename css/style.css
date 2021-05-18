@@ -18,7 +18,6 @@ body {
   font-weight: 300;
   line-height: 1.6;
   color: #333333;
-  text-align: center;
 }
 
 h1, h2, h3, h4 {
@@ -63,7 +62,7 @@ footer {
   background-color: #003a4a;
 }
 
-#home {
+#hero {
   background-color: #003a4a;
 }
 
@@ -145,23 +144,27 @@ a:active {
   margin: 25px 0;
 }
 
-#work .row {
+#home .row {
   padding-bottom: 25px; border-bottom: 1px; color: #333333;
 }
 
-#home {
+#hero {
   background-color: #003a4a;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
 }
 
-#home h1 {
-  text-align: center;
+#hero h1 {
   color: #ffffff;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
 }
 
-#home p {
+#hero p {
   text-align: center;
   color: #ffffff;
 }
@@ -201,16 +204,15 @@ nav > ul > li > a:active {
   opacity: 0.2;
 }
 
-#about img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
 #about .row {
   list-style-type: none;
   padding: 0;
+}
+
+footer {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 footer > div > h2 {
@@ -225,9 +227,28 @@ footer > div p {
 .icon {
   max-width: 44px;
   display: inline-block;
+  padding: 5px;
+}
+
+.icon:visited {
+  max-width: 44px;
+  display: inline-block;
+  padding: 5px;
+}
+
+.icon:hover,
+.icon:focus {
+  opacity: 0.6;
+}
+
+.icon:active {
+  opacity: 0.4;
 }
 
 .image {
   max-width: 50%;
-  display: inline-block;
+  display: block;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
