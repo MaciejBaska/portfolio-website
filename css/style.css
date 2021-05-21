@@ -8,7 +8,7 @@
 }
 
 main {
-  padding-top: 160px;
+  padding-top: 187px;
 }
 
 body {
@@ -60,7 +60,7 @@ header {
   background-color: #003a4a;
   text-align: center;
   padding: 10px;
-  position: fixed;
+  position: relative;
   box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
   width: 100%;
 }
@@ -161,6 +161,7 @@ a:active {
 #hero {
   background-color: #003a4a;
   padding: 20px 0;
+  margin-top: -188px;
   display: inline-block;
   width: 100%;
 }
@@ -366,6 +367,11 @@ body {
 #about .button {
   display: inline-block;
   text-align: center;
+}
+
+#hero {
+  background-color: #003a4a;
+  margin-top: -120px;
 }
 
 }
