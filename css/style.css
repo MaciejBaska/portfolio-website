@@ -77,6 +77,7 @@ a,
 a:visited {
   color: #ffffff;
   text-decoration: underline;
+  transition: 0.5s opacity;
 }
 
 a:hover,
@@ -99,7 +100,8 @@ a:active {
   padding: 10px;
   border-radius: 4px;
   border-bottom: 2px solid #333333;
-  transition: 0.2s opacity;
+  transition-duration: 0.2s;
+  transition: 0.5s opacity;
   text-decoration: none;
 }
 .button:hover,
@@ -121,20 +123,21 @@ a:active {
   color: #003a4a;
   text-transform: uppercase;
   border: 2px solid #003a4a;
+  transition: 0.5s opacity;
 }
 .button.contact:hover,
 .button.contact:focus {
   display: inline-block;
-  background-color: #003a4a;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #003a4a;
   font-weight: 400;
   padding: 10px;
   border-radius: 4px;
-  transition: 0.2s opacity;
-  opacity: 0, 8;
   text-decoration: none;
 }
 .button.contact:active {
+  background-color: #003a4a;
+  color: #ffffff;
   opacity: 1;
   text-decoration: none;
   border: 2px solid #ffffff;
@@ -216,6 +219,12 @@ nav > ul > li > a:active {
   padding: 0;
 }
 
+#home svg {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
 footer {
   text-align: center;
   padding-top: 10px;
@@ -231,10 +240,18 @@ footer > div p {
   color: #ffffff;
 }
 
+.copyright {
+  text-align: center;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .icon {
   max-width: 44px;
   display: inline-block;
   padding: 5px;
+  transition: 0.5s opacity;
 }
 
 .icon:visited {
@@ -264,6 +281,11 @@ ul {
 list-style-type: none;
 padding: 0;
 }
+
+#story h3 {
+  text-align: left;
+}
+
 
 @media only screen and (min-width: 640px) {
 
@@ -295,7 +317,9 @@ body {
   float: left;
   padding-left: 10px;
   padding-right: 10px;
+  text-align: left;
 }
+
 
 .row::after {
   content: "";
@@ -307,8 +331,6 @@ body {
   display: inline-block;
   text-align: center;
 }
-
-
 
 }
 
@@ -329,6 +351,12 @@ body {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.col-lg-6 {
+  width: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 }
