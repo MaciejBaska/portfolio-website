@@ -8,7 +8,7 @@
 }
 
 main {
-  padding-top: -187px;
+  padding-top: 164px;
 }
 
 body {
@@ -45,11 +45,8 @@ h4 {
   font-weight: 400;
 }
 
-p {
-  max-width: 700px;
+#about p {
   text-align: left;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 img {
@@ -60,8 +57,8 @@ header {
   background-color: #003a4a;
   text-align: center;
   padding: 10px;
-  position: relative;
-  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  position: fixed;
+  box-shadow: 0 7px 5px 0px rgba(50, 50, 50, 0.30);
   width: 100%;
 }
 
@@ -150,8 +147,16 @@ a:active {
   padding: 0 15px;
 }
 
+.section {
+  padding: 30px 0;
+}
+
 .row {
   margin: 25px 0;
+}
+
+#home {
+  text-align: center;
 }
 
 #home .row {
@@ -193,7 +198,7 @@ nav > ul > li {
 }
 
 nav > ul > li > a {
-  padding: 0 15px;
+  padding: 0 13px;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 700;
@@ -286,6 +291,12 @@ padding: 0;
   text-align: left;
 }
 
+#story .button {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @keyframes color-change {
   0% {fill: #edc655;}
   50% {fill: #fcffad;}
@@ -327,7 +338,7 @@ padding: 0;
 
 header {
   text-align: unset;
-  padding: 20px 0 13px;
+  padding: 20px 0 8px;
 }
 
 nav {
@@ -336,8 +347,12 @@ nav {
   margin-top: 4px;
 }
 
+#hero {
+  padding-top: 119px;
+}
+
 main {
-  padding-top: 99px;
+  padding-top: 119px;
 }
 
 body {
@@ -349,13 +364,18 @@ body {
 }
 
 [class*="col-"] {
-  width: 50%;
   float: left;
   padding-left: 10px;
   padding-right: 10px;
-  text-align: left;
 }
 
+.col-md-6 {
+  width: 50%;
+}
+
+.col-md-12 {
+  width: 100%;
+}
 
 .row::after {
   content: "";
@@ -370,7 +390,7 @@ body {
 
 #hero {
   background-color: #003a4a;
-  margin-top: -120px;
+  padding: 60px 0;
 }
 
 }
@@ -398,6 +418,12 @@ body {
   width: 50%;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+p {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 }
