@@ -8,7 +8,7 @@
 }
 
 main {
-  padding-top: 164px;
+  padding-top: 68px;
 }
 
 body {
@@ -55,8 +55,7 @@ img {
 
 header {
   background-color: #003a4a;
-  text-align: center;
-  padding: 10px;
+  padding: 10px 0 4px;
   position: fixed;
   box-shadow: 0 7px 5px 0px rgba(50, 50, 50, 0.30);
   width: 100%;
@@ -185,16 +184,13 @@ a:active {
 }
 
 .logo {
-  max-width: 250px;
+  max-width: 150px;
 }
 
 nav > ul {
   list-style-type: none;
   padding: 0;
-}
-
-nav > ul > li {
-  display: inline-block;
+  margin: 0;
 }
 
 nav > ul > li > a {
@@ -217,6 +213,22 @@ nav > ul > li > a:focus {
 }
 nav > ul > li > a:active {
   opacity: 0.2;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
 }
 
 #about .row {
@@ -345,6 +357,26 @@ nav {
   width: auto;
   float: right;
   margin-top: 4px;
+}
+
+nav > ul {
+  margin: 1em 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+.navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+
+.navtoggle li:last-child {
+  display: none;
+}
+
+.logo {
+  min-width: 250px;
 }
 
 #hero {

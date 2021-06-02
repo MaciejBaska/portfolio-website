@@ -7,22 +7,28 @@
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="fas fa-bars" href="https://fontawesome.com/v5.15/icons/bars?style=solid">
   <link href="https://fonts.googleapis.com/css2?family=Lato:300,400,700&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/750960a17c.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
   <header>
 
     <div class="container">
-      <a href="index.html"><img src="img/logo@2x.png" alt="Maciej Baska" class="logo"></a>
-      <nav>
-        <ul>
-          <li><a href="index.html#home">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+      <div class="navtoggle" id="myNavtoggle">
+        <a href="index.html"><img src="img/logo@2x.png" alt="Maciej Baska" class="logo"></a>
+        <nav>
+          <ul>
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars"></i></a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </header>
   <main>
@@ -1057,6 +1063,7 @@
       <p>Copyright Maciej Baska 2021</p>
     </div>
   </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
 </body>
 
